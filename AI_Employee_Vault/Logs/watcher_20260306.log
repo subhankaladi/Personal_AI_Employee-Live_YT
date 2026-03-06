@@ -1,0 +1,19 @@
+2026-03-06 23:50:39,472 - FileSystemWatcher - INFO - Drop folder: ..\test_drop
+2026-03-06 23:50:39,472 - FileSystemWatcher - INFO - Starting FileSystemWatcher
+2026-03-06 23:50:39,473 - FileSystemWatcher - INFO - Vault path: ..\AI_Employee_Vault
+2026-03-06 23:50:39,473 - FileSystemWatcher - INFO - Drop folder: ..\test_drop
+2026-03-06 23:50:39,475 - FileSystemWatcher - INFO - Watching for new files in: ..\test_drop
+2026-03-06 23:50:39,475 - FileSystemWatcher - ERROR - Fatal error: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\a\Documents\GitHub\Personal_AI_Employee-Live_YT\watchers\filesystem_watcher.py", line 284, in run
+    time.sleep(1)
+    ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'?
+2026-03-06 23:53:21,849 - FileSystemWatcher - INFO - Drop folder: ..\test_drop
+2026-03-06 23:53:21,849 - FileSystemWatcher - INFO - Starting FileSystemWatcher
+2026-03-06 23:53:21,849 - FileSystemWatcher - INFO - Vault path: ..\AI_Employee_Vault
+2026-03-06 23:53:21,849 - FileSystemWatcher - INFO - Drop folder: ..\test_drop
+2026-03-06 23:53:21,852 - FileSystemWatcher - INFO - Copied file to vault: test_document.txt
+2026-03-06 23:53:21,854 - FileSystemWatcher - INFO - Watching for new files in: ..\test_drop
+2026-03-06 23:53:47,385 - FileSystemWatcher - INFO - New file detected: test_file2.txt
+2026-03-06 23:53:47,399 - FileSystemWatcher - INFO - Copied file to vault: test_file2.txt
